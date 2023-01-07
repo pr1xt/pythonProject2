@@ -9,4 +9,5 @@ m = open('C:\Programming\pythonProject2\\Wfiled.txt', 'w', encoding="utf-8")#с�
 ### k РАЗ ПИШЕМ d  В ОДИН ФАЙЛ
 for x in range(0, k):
     m = open('C:\Programming\pythonProject2\\Wfiled.txt', 'a', encoding="utf-8")  # создать+открыть
-    m.writelines("  "+d+"\n")
+    m.writelines(""+d+"\n")
+    print(""+d+"\n",end="")
